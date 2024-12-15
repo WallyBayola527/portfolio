@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+	    background-color: #FFF9E6;
+        }
+
+        header {
+            background-color: #CCD5AE;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header img {
+            height: 50px;
+            width: 50px;
+            margin-bottom: 10px;
+        }
+
+        .header-content {
+            text-align: center;
+        }
+
+        .content {
+            text-align: center;
+        }
+
+        .projects {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .project {
+            border: 1px solid #FAEDCD;
+            border-radius: 10px;
+            padding: 10px;
+            width: 300px;
+            background-color: #FAEDCD;
+            text-align: center;
+        }
+
+        .project img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .project button {
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #CCD5AE;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .project button:hover {
+            background-color: #A3B18A;
+        }
+
+        footer {
+            background-color: #E9EDC9;
+            text-align: center;
+            padding: 10px;
+            margin-top: 80px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="YlaiFile/s.jpg" alt="Logo"> 
+        <div class="header-content">
+            <h1>My Portfolio</h1>
+            <p>Welcome to my portfolio!</p>
+        </div>
+    </header>
+    <div class="content">
+        <h2>Check my info!</h2>
+        <div class="projects">
+            <div class="project">
+                <img src="YlaiFile/personal information.jpg" alt="Personal Information">
+                <button onclick="window.location.href='personal-info.html'">View My Personal Information</button>
+            </div>
+            <div class="project">
+                <img src="YlaiFile/IT2.jpg" alt="My Dream">
+                <button onclick="window.location.href='my-dream.html'">My Dream</button>
+            </div>
+            <div class="project">
+                <img src="YlaiFile/educational background.jpg" alt="Educational Background">
+                <button onclick="window.location.href='educational-background.html'">View My Educational Background</button>
+            </div>
+            <div class="project">
+                <img src="YlaiFile/Gallery.jpg" alt="Gallery">
+                <button onclick="window.location.href='gallery.html'">View My Galleries</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Welcome!</p>
+    </footer
